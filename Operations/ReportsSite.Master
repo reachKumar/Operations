@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReportsSite.master.cs"  Inherits="Operations.ReportsSite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<%@ Register src="UserControls/LeftNavigation.ascx" tagname="LeftNavigation" tagprefix="uc2" %>
+<%@ Register src="UserControls/TopMenu.ascx" tagname="TopMenu" tagprefix="uc1" %>
+<%@ Register src="UserControls/MenuAccordane.ascx" tagname="LeftNavigation2" tagprefix="uc3" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1Reports" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<%--<meta http-equiv="X-UA-Compatible" content="IE= 9" />
+<meta http-equiv="X-UA-Compatible" content="IE= Edge" />--%>
+
+  <title>Hibernia NOC Portal</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Site.css" media="screen"/>
+   
+
+     <asp:ContentPlaceHolder ID="HeadContentReports" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    </head>
+<body>
+   <form id="Form1Reports" runat="server">
+   <asp:ScriptManager ID="ScriptManager1" runat="server">
+   </asp:ScriptManager>
+   <div class="application-HeaderNew">
+       
+        
+    
+       <div class="application-Headerleft">
+    <asp:Image ID="imglogo" runat="server" Height="59px" 
+        ImageUrl="~/Images/Logos/Hibernia.png" />
+           
+</div>
+
+       <div class="application-HeaderCenterNew">
+           <%--<uc1:TopMenu ID="TopMenu1" runat="server" />--%>
+         
+
+       </div>
+    
+       <div class="application-Headerright">
+ <strong><asp:Label ID="lblUserName" runat="server" ForeColor="White"></asp:Label></strong><br /><br />
+                        <a href="Login.aspx" runat="server" style="color:White" ID="A1">Sign in as another User</a>
+</div>
+   
+   
+  </div>
+
+  
+      
+    
+
+      <!--Body-->
+      <div class="application-body">
+    <div class="application-leftMenu">
+      
+        <uc3:LeftNavigation2 ID="LeftNavigation21" runat="server" />
+      
+        </div>
+    <div class="application-MainContentNew">
+        <asp:ContentPlaceHolder ID="MainContentReports"   runat="server"/>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+  </div>
+
+ 
+  </div>
+    <!--Footer-->
+    
+     <div class="container-fluid">
+
+        <div class="application-footer">
+       
+       
+<div class="application-footerleft">
+<ul >
+  <li>© 2015 <a href="http://www.hiberniaatlantic.com/" target="_blank">Hibernia Networks</a></li>
+  </ul></div>
+<div class="application-footerright">
+<ul >
+  <li >Support:</li>
+  <li><a href="https://owa.hiberniaatlantic.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fowa.hiberniaatlantic.com%2fowa%2f" target="_blank">Hibernia Web Mail</a></li>
+  <li >Phone:</li>
+  <li>+353.1.8673600</li>
+  <li >M-F 9AM-7PM (GMT-5:00)</li></ul></div>
+  
+  </div>
+  </div>
+
+</form>
+
+   
+    
+</body>
+</html>

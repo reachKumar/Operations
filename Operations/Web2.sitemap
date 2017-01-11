@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="" title="Main"  description="">
+
+    <siteMapNode url="SSRSActivity.aspx" title="Activity"  description="Activity" />
+
+    <siteMapNode url="SSRSNetOpsRegion.aspx" title="Generator Weekly Testing"  description="Region" />
+
+    
+
+    <siteMapNode url="SSRSMaintance.aspx" title="Maintenances"  description="Maintenances" />
+
+    <siteMapNode url="SSRSUpdateonExisting.aspx" title="Update on Existing"  description="Update on Existing" />
+    
+    <siteMapNode url="SSRSNewIncidence.aspx" title="New Incident"  description="New Incident" />
+    
+    <siteMapNode url="SSRSWorkOrders.aspx" title="Work Orders"  description="Work Orders" />
+
+    <siteMapNode url="SSRSNetWorkOutages.aspx" title="Network Outages"  description="Network Outages" />
+    
+    <siteMapNode url="SSRSSpanReports.aspx" title="Span Report"  description="Span Report" />
+    
+    <siteMapNode url="ShiftHandover.aspx" title="Shift Handover"  description="Shift Handover" />
+    
+
+  </siteMapNode>
+</siteMap>

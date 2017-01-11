@@ -1,0 +1,359 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+body
+{
+   background-image:url('/Images/Background/BG.jpg');
+    font-size: .80em;
+    font-family:Calibri;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ddl
+{
+    border: 1px solid #7d6754;
+    border-radius: 5px;
+    padding: 3px;
+    -webkit-appearance: none;
+    background-position: 138px;
+    background-repeat: no-repeat;
+    text-indent: 0.01px; /*In Firefox  #F6F1DB; */
+    text-overflow: clip; /*In Firefox*/
+    color: Black;
+    font-family: Calibri;
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+/* DEFAULTS 110 40
+----------------------------------------------------------*/
+.application-Header
+{
+    background: #283c46;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0px;
+    height: 76px;
+}
+
+.application-HeaderNew {
+	background:#283c46; margin: 0px; padding: 0px; left: 0px; 
+    width: 100%;  
+    position: fixed; z-index: 20;
+    top: 0px;
+    height:60px;
+}
+
+
+.application-Headerleft
+{
+    margin: 0px;
+    padding: 0px;
+    left: 20px;
+    width: 157px;
+    position: fixed;
+    z-index: 20;
+    top: 0px;
+    height: auto;
+}
+.application-HeaderCenter
+{
+    margin: 0px;
+    padding: 0px;
+    left: 14%;
+    width: auto;
+    position: fixed;
+    z-index: 20;
+    top: 17px;
+    height: auto;
+}
+
+.application-HeaderCenterNew {
+	
+	margin: 0px; padding: 0px; left: 170px; 
+    width:  auto;  
+    position: fixed; z-index: 20;
+    top: 10px;
+    height:60px;
+}
+
+
+.application-Headerright
+{
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    width: 175px;
+    position: fixed;
+    z-index: 20;
+    top: 1.5px;
+    height: auto;
+}
+/* DEFAULTS
+----------------------------------------------------------*/
+.application-body
+{
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 95%;
+    position: relative;
+    top: 60px;
+    height: auto;
+}
+/* DEFAULTS
+----------------------------------------------------------*/
+.application-leftMenu
+{
+    margin: 0px;
+    padding: 0px;
+    left: 2px;
+    width: 165px;
+    position: fixed;
+    z-index: 20;
+    top: 80px;
+    height: auto;
+}
+/* changeing content body DEFAULTS
+----------------------------------------------------------*/
+.application-MainContent
+{
+    margin: 0px;
+    padding: 0px;
+    left: 120px;
+    width: 95%;
+    position: relative;
+    top: 0px;
+    height: auto;
+    font-family: Calibri;
+    font-size: 12.5px;
+}
+
+.application-MainContentNew{
+	margin: 0px; padding: 0px; left: 170px;
+    width: 80%;  
+    position: relative; 
+    top: 40px;
+    height: 100%;
+    font-family: Calibri;
+    font-size: 12.5px;
+}
+/* Footer DEFAULTS
+----------------------------------------------------------*/
+.application-footer
+{
+    background: #062230;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    z-index: 20;
+    height: 27px;
+}
+.application-footerleft
+{
+    margin: 0px;
+    padding: 0px;
+    left: 15px;
+    width: 222px;
+    bottom: -6px;
+    position: fixed;
+    z-index: 20;
+}
+
+.application-footerleft ul
+{
+    color: #8e99a0;
+    width: 181px;
+    margin-top: 0px;
+    height: 15px;
+}
+.application-footerleft ul li
+{
+    list-style: none;
+    display: inline;
+}
+.application-footerleft ul li a
+{
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.application-footerright
+{
+    margin: 0px;
+    padding: 0px;
+    right: 19px;
+    width: auto;
+    bottom: -6px;
+    position: fixed;
+    z-index: 20;
+}
+
+.application-footerright ul
+{
+    font: calibri;
+    color: #8e99a0;
+}
+.application-footerright ul li
+{
+    list-style: none;
+    display: inline;
+}
+.application-footerright ul li a
+{
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+/*End Footer */
+
+
+
+/* Top Menu DEFAULTS
+----------------------------------------------------------*/
+
+/* #topNavigation
+{
+    width: 100%;
+    background-color:red;
+    vertical-align: bottom;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    height: 30px;
+}*/
+    
+    .MenuItemStyle
+{
+    width: 85px ;
+    background-color:#283c46;
+    color:White ;
+    border:   1px #000;   
+    text-align: center;
+    height: 30px;
+    font-weight:bold;
+    
+}
+    .LeftMenuItemStyle
+{
+    width: 160px ;
+    background-color:#283c46;
+    color:White ;
+    border:   1px #000;   
+    text-align: center;    
+    height: 30px;
+    font-weight:bold;
+     
+}
+    .SelectedStyle
+{
+    background-color:silver;
+    color: black;   
+    border-bottom: solid 1px #eee;
+    z-index: 100;
+}
+    .HoverStyle
+{
+    background-color:#e5e5e5;
+      color: black;
+}
+
+/*  DEFAULTS
+----------------------------------------------------------*/
+.row {
+	margin-left: -20px;
+}
+
+/* Button  DEFAULTS
+----------------------------------------------------------*/
+        
+
+.btn-primary {       
+border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(179, 179, 179); 
+padding: 4px 10px; border-radius: 4px; text-align: center; color: rgb(51, 51, 51); line-height: 18px; font-size: 13px;
+margin-bottom: 0px; vertical-align: middle; display: inline-block; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
+ cursor: pointer; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2), 0px 1px 2px rgba(0,0,0,0.05); background-repeat: repeat-x; 
+ background-color: rgb(245, 245, 245); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); 
+ -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+background-color: rgb(87, 180, 29);
+}
+.btn-primary:hover {
+       color: rgb(255, 255, 255); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: rgb(72, 150, 25);
+}
+
+.divpart
+{
+margin: 5px auto 0px auto; 
+border :1px solid black; 
+
+    }
+    
+.overlay 
+{
+ position: fixed;
+ background-color: white;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+ opacity: 0.8;
+ -moz-opacity: 0.8;
+ filter: alpha(opacity=80);
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ z-index: 10000;
+ text-align:center;
+ margin-top:2%;
+ 
+}
+
+#Background 
+
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+  background-color:Gray;
+    filter:alpha(opacity=40);
+    opacity:0.4;
+}
+
+ 
+
+#Progress 
+{
+    /*  position:fixed;----------text-align:center;---- border:1px solid #fcac37;--------*/
+   position:fixed;
+    top:84%;
+    left:85%;
+    width: 215px;
+    height: 22px;
+   padding: 5px;
+        }
+        
+        
+#LoginProgress 
+{
+    /*  position:fixed;----------text-align:center;---- border:1px solid #fcac37;--------*/
+   position:fixed;
+    top:40%;
+    left:41%;
+    width: 215px;
+    height: 22px;
+   padding: 5px;
+        }
+
